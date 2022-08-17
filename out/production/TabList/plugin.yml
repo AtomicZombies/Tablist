@@ -1,0 +1,6 @@
+main: me.cjcrafter.tablist.TabList
+name: TabList
+version: 1.1.0
+api-version: "1.13"
+depend:
+  - MechanicsCore

@@ -1,0 +1,28 @@
+Header:
+  - "&6Welcome to MyServer"
+  - "&6It's an epic server"
+
+Footer:
+  - "&6Visit our store at buycraft.myserver.com"
+
+Debug_Level: 4
+
+# How often to manually update
+Interval: 600 # 600 ticks = 30 seconds
+
+# Where you can define prefix and suffix
+Groups:
+
+  # This gets put first on the list
+  '0':
+    Prefix: "&8[&4&lOwner&8] "
+    Suffix: ""
+    Permission: "tablist.owner"
+  '1':
+    Prefix: "&8[&8&lDeveloper&8] "
+    Suffix: ""
+    Permission: "tablist.dev"
+  Default:
+    Prefix: "&8[&aNoob&8] "
+    Suffix: ""
+
